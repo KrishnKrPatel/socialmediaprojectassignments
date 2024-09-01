@@ -1,0 +1,10 @@
+PENDING_CHOICE_STATUS = 'pending'
+ACCEPTED_CHOICE_STATUS = 'accepted'
+REJECTED_CHOICE_STATUS = 'rejected'
+
+
+CHOICES_STATUS = (
+    (PENDING_CHOICE_STATUS, 'Pending'),
+    (ACCEPTED_CHOICE_STATUS, 'Accepted'),
+    (REJECTED_CHOICE_STATUS, 'Rejected'),
+)
